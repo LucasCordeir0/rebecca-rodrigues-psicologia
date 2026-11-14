@@ -3,9 +3,9 @@
    ============================================ */
 :root {
   /* Paleta de cores */
-  --cor-primaria: #2D4A3E;        /* Verde-musgo escuro */
-  --cor-secundaria: #4A2D3E;      /* Vinho suave */
-  --cor-acento: #C9A96E;          /* Dourado envelhecido */
+  --cor-primaria: #7A1F2B;        /* Vinho/bordô */
+  --cor-secundaria: #5C141F;      /* Vinho escuro */
+  --cor-acento: #C9A96A;          /* Dourado */
   --cor-acento-claro: #D4B978;
   --cor-fundo: #F5F0EB;           /* Off-white */
   --cor-fundo-claro: #FAF8F6;
@@ -109,7 +109,7 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(201, 169, 110, 0.4);
+  box-shadow: 0 8px 25px rgba(201, 169, 106, 0.4);
 }
 
 .btn-secondary {
@@ -174,7 +174,7 @@ body {
 }
 
 .header.scrolled {
-  background: rgba(45, 74, 62, 0.95);
+  background: rgba(122, 31, 43, 0.95);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
@@ -252,7 +252,7 @@ body {
 
 .nav-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(201, 169, 110, 0.3);
+  box-shadow: 0 4px 15px rgba(201, 169, 106, 0.3);
 }
 
 /* Toggle Menu Mobile */
@@ -375,7 +375,7 @@ body {
   object-fit: cover;
   object-position: center 20%;
   border: 4px solid var(--cor-acento);
-  box-shadow: 0 20px 40px rgba(45, 74, 62, 0.3);
+  box-shadow: 0 20px 40px rgba(122, 31, 43, 0.3);
 }
 
 .sobre-texto {
@@ -420,12 +420,12 @@ body {
   border-radius: 12px;
   text-align: center;
   transition: var(--transicao-lenta);
-  border: 1px solid rgba(201, 169, 110, 0.2);
+  border: 1px solid rgba(201, 169, 106, 0.2);
 }
 
 .area-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(45, 74, 62, 0.15);
+  box-shadow: 0 20px 40px rgba(122, 31, 43, 0.15);
   border-color: var(--cor-acento);
 }
 
@@ -489,7 +489,7 @@ body {
 
 .especialidade-item:hover {
   transform: translateX(5px);
-  box-shadow: 0 4px 15px rgba(201, 169, 110, 0.2);
+  box-shadow: 0 4px 15px rgba(201, 169, 106, 0.2);
 }
 
 .especialidade-icon {
@@ -642,7 +642,7 @@ body {
 
 .depoimento-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(201, 169, 110, 0.15);
+  box-shadow: 0 10px 30px rgba(201, 169, 106, 0.15);
 }
 
 .depoimento-aspas {
@@ -733,7 +733,7 @@ body {
 }
 
 .faq-button:hover {
-  background: rgba(201, 169, 110, 0.1);
+  background: rgba(201, 169, 106, 0.1);
 }
 
 .faq-button[aria-expanded="true"] {
@@ -826,7 +826,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 40px;
-  border-bottom: 1px solid rgba(201, 169, 110, 0.3);
+  border-bottom: 1px solid rgba(201, 169, 106, 0.3);
   flex-wrap: wrap;
   gap: 32px;
 }
