@@ -203,6 +203,16 @@ body {
   letter-spacing: 2px;
 }
 
+.logo-image {
+  display: block;
+  height: 64px;
+  width: auto;
+}
+
+.logo-image-footer {
+  height: 72px;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
